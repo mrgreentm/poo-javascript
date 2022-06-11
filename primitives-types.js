@@ -29,3 +29,11 @@ let numberOne = 12;
 let numberTwo = '12';
 console.log(numberOne == numberTwo)  //shows true
 console.log(numberOne === numberTwo)  //shows false, because converts type of each variable
+
+//Primitives methods
+let myName = 'João';
+let lowerCaseName = myName.toLowerCase(); //converts all string to lower case
+let upperCaseName = myName.toUpperCase(); //converts all string to upper case
+let firstLetter = myName.charAt(0); //obtains first letter of myName
+let intervalOfLetter = myName.substring(0,2); //obtains an interval of 0 to 2 letters
+
