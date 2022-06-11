@@ -18,8 +18,14 @@ console.log(
 don't affects a second variable */
 //like the below exemple
 
-let colorOne = 'red'
-let colorTwo = colorOne
-console.log(colorOne, colorTwo, 'first console')
-colorOne = 'blue'
-console.log(colorOne, colorTwo, 'second console')
+let colorOne = "red";
+let colorTwo = colorOne;
+console.log(colorOne, colorTwo, "first console");
+colorOne = "blue";
+console.log(colorOne, colorTwo, "second console");
+
+//comparation without type conversions
+let numberOne = 12;
+let numberTwo = '12';
+console.log(numberOne == numberTwo)  //shows true
+console.log(numberOne === numberTwo)  //shows false, because converts type of each variable
